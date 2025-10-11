@@ -39,46 +39,47 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ## 🏗️ Project Structure
 
-    PARKING_SYSTEM/
+    PARQUEADERO/
     ├── 🌐 Frontend
-    │   ├── assets/          # Visual assets
-    │   ├── CSS/             # Styles and layout
-    │   ├── JavaScript/      # Interactive behavior
-    │   └── images/          # System images
+    │   ├── assets/              # Visual assets
+    │   ├── CSS/                 # Styles and layout
+    │   ├── JavaScript/          # Interactive behavior
+    │   └── images/              # System images
     │
-    ├── 🗂️ Main Pages
+    ├── 🗂️ Páginas Principales
     │   ├── home.php
-    │   ├── vehicle_entry.php
-    │   ├── vehicle_exit.php
-    │   ├── payment_portal.php
-    │   ├── view_ticket.php
-    │   └── vehicle_location.php
+    │   ├── ingresoVehículo.php
+    │   ├── salidaVehículo.php
+    │   ├── portal_pago.php
+    │   ├── ver_ticket.php
+    │   └── ubicacion_vehiculos.php
     │
-    ├── 👥 User Management
-    │   ├── Customer.php
-    │   ├── Employee.php
-    │   └── includes/              # Shared resources
+    ├── 👥 Gestión de Usuarios
+    │   ├── Cliente.php
+    │   ├── Empleado.php
+    │   └── includes/            # Shared resources
     │
-    ├── 🔐 Authentication System
-    │   ├── login_user_be.php
-    │   ├── register_user_be.php
-    │   └── logout.php
+    ├── 🔐 Sistema de Autenticación
+    │   ├── login_usuario_be.php
+    │   ├── registro_usuario_be.php
+    │   └── cerrar_sesion.php
     │
-    ├── 🎫 Ticket Module
-    │   ├── process_entry.php
-    │   ├── calculate_payment.php
-    │   ├── process_payment.php
-    │   ├── invoice.php
-    │   └── download_customer_ticket.php
+    ├── 🎫 Módulo de Tickets
+    │   ├── procesar_ingreso.php
+    │   ├── calcular_pago.php
+    │   ├── procesar_pago.php
+    │   ├── factura.php
+    │   └── descargar_ticket_cliente.php
     │
-    ├── 🗄️ Database
-    │   ├── connection_be.php
+    ├── 🗄️ Base de Datos
+    │   ├── conexion_be.php
     │   ├── config.php
     │   └── database.sql
     │
-    └── 📄 Documentation
+    └── 📄 Documentación
         ├── README.md
-        └── main.php
+        └── principal.php
+
 
 ---
 
