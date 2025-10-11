@@ -5,18 +5,20 @@ A modern and efficient web application designed to simplify and automate the man
 
 ---
 
-## 🎥 Demo Video
-
-📺 *Watch the system in action:*  
-👉 [Insert demo video link here]
-
----
 ## 🚗 What Does This System Do?
 
 This project transforms the traditional parking experience into a fully digital, fast, and organized process.  
 Imagine arriving at a parking lot and, instead of taking a physical ticket, handling everything from a **web-based platform** — registration, payment, and exit — all in one place.
 
 ---
+
+## 🎥 Demo Video
+
+📺 *Watch the system in action:*  
+👉 [Insert demo video link here]
+
+---
+
 
 ## ✨ Key Features
 
