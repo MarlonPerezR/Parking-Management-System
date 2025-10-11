@@ -40,7 +40,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 ---
 
 ## 🏗️ Project Structure
-
+```
 PARKING_SYSTEM/
 ├── 🌐 Frontend
 │ ├── assets/ # Visual assets
@@ -81,9 +81,7 @@ PARKING_SYSTEM/
 └── 📄 Documentation
 ├── README.md
 └── main.php
-
-yaml
-Copiar código
+```
 
 ---
 
