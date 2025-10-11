@@ -1,0 +1,23 @@
+=================================
+     TICKET DE INGRESO
+     BOGO-PARKING J.M
+=================================
+
+FECHA: 10/10/2025
+HORA: 19:21
+
+INFORMACIÓN DEL VEHÍCULO:
+Placa: OHT43F
+Tipo: Moto
+Marca: Pulsar
+Color: Amarillo
+Espacio: M1
+Documento Cliente: 12345
+Observaciones: adadadad
+
+=================================
+CONSERVE ESTE TICKET
+PARA SU RETIRO
+=================================
+Tel: +57 3123546887
+Calle 45 # 13-21, Bogotá

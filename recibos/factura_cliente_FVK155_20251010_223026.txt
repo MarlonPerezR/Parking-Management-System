@@ -1,0 +1,27 @@
+=================================
+        FACTURA DE PAGO
+       BOGO-PARKING J.M
+=================================
+
+CLIENTE: Andrea Castro
+DOCUMENTO: 1000516
+EMAIL: andrea@gmail.com
+
+PLACA: FVK155
+TIPO: Carro
+FECHA INGRESO: 10/10/2025
+HORA INGRESO: 22:29:00
+FECHA SALIDA: 10/10/2025
+HORA SALIDA: 22:30:26
+
+TIEMPO ESTACIONADO: 0h 1m
+TARIFA POR MINUTO: $163
+MÉTODO DE PAGO: PSE
+
+=================================
+TOTAL PAGADO: $163
+=================================
+
+Tel: +57 3123546887
+Calle 45 # 13-21, Bogotá
+¡Gracias por su pago!

@@ -1,0 +1,44 @@
+# XAMPP
+/xampp/
+/xampp-control.ini
+
+# Apache
+/.htaccess
+/error_log
+
+# PHP sessions
+/sess_*
+/session_*
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database (NO subir)
+*.sql
+*.mdb
+*.accdb
+/database/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+backup/
+*.bak
+*_backup*
+
+# Config files with passwords
+*config*.php
+*conexion*.php
