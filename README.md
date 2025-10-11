@@ -5,6 +5,12 @@ A modern and efficient web application designed to simplify and automate the man
 
 ---
 
+## 🎥 Demo Video
+
+📺 *Watch the system in action:*  
+👉 [Insert demo video link here]
+
+---
 ## 🚗 What Does This System Do?
 
 This project transforms the traditional parking experience into a fully digital, fast, and organized process.  
@@ -12,13 +18,6 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ---
 
-## 🎥 Demo Video
-
-📺 *Watch the system in action:*  
-👉 [Insert demo video link here]
-
-
----
 ## ✨ Key Features
 
 - 🎫 **Digital Ticket Management** — Go paperless, manage everything online.  
@@ -29,7 +28,6 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - 📍 **Vehicle Tracking** — Interactive map showing each vehicle’s location.
 
 ---
-
 ## 🚀 Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript  
@@ -40,48 +38,47 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 ---
 
 ## 🏗️ Project Structure
-```
-PARKING_SYSTEM/
-├── 🌐 Frontend
-│ ├── assets/ # Visual assets
-│ ├── CSS/ # Styles and layout
-│ ├── JavaScript/ # Interactive behavior
-│ └── images/ # System images
-│
-├── 🗂️ Main Pages
-│ ├── home.php
-│ ├── vehicle_entry.php
-│ ├── vehicle_exit.php
-│ ├── payment_portal.php
-│ ├── view_ticket.php
-│ └── vehicle_location.php
-│
-├── 👥 User Management
-│ ├── Customer.php
-│ ├── Employee.php
-│ └── includes/ # Shared resources
-│
-├── 🔐 Authentication System
-│ ├── login_user_be.php
-│ ├── register_user_be.php
-│ └── logout.php
-│
-├── 🎫 Ticket Module
-│ ├── process_entry.php
-│ ├── calculate_payment.php
-│ ├── process_payment.php
-│ ├── invoice.php
-│ └── download_customer_ticket.php
-│
-├── 🗄️ Database
-│ ├── connection_be.php
-│ ├── config.php
-│ └── database.sql
-│
-└── 📄 Documentation
-├── README.md
-└── main.php
-```
+
+    PARKING_SYSTEM/
+    ├── 🌐 Frontend
+    │   ├── assets/          # Visual assets
+    │   ├── CSS/             # Styles and layout
+    │   ├── JavaScript/      # Interactive behavior
+    │   └── images/          # System images
+    │
+    ├── 🗂️ Main Pages
+    │   ├── home.php
+    │   ├── vehicle_entry.php
+    │   ├── vehicle_exit.php
+    │   ├── payment_portal.php
+    │   ├── view_ticket.php
+    │   └── vehicle_location.php
+    │
+    ├── 👥 User Management
+    │   ├── Customer.php
+    │   ├── Employee.php
+    │   └── includes/              # Shared resources
+    │
+    ├── 🔐 Authentication System
+    │   ├── login_user_be.php
+    │   ├── register_user_be.php
+    │   └── logout.php
+    │
+    ├── 🎫 Ticket Module
+    │   ├── process_entry.php
+    │   ├── calculate_payment.php
+    │   ├── process_payment.php
+    │   ├── invoice.php
+    │   └── download_customer_ticket.php
+    │
+    ├── 🗄️ Database
+    │   ├── connection_be.php
+    │   ├── config.php
+    │   └── database.sql
+    │
+    └── 📄 Documentation
+        ├── README.md
+        └── main.php
 
 ---
 
@@ -98,5 +95,15 @@ PARKING_SYSTEM/
 - Manage parking spaces and vehicle locations.  
 - Handle incidents and customer requests.  
 - Generate detailed reports and payment records.
+
+---
+
+## 🚀 Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Server:** Apache (XAMPP)
+
 
 
