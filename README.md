@@ -82,9 +82,6 @@ PARKING_SYSTEM/
 ├── README.md
 └── main.php
 
-yaml
-Copiar código
-
 ---
 
 ## 🎯 Who Is This System For?
