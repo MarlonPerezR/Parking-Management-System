@@ -15,7 +15,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 ## 🎥 Demo Video
 
 📺 *Watch the system in action:*  
-👉 [Insert demo video link here]
+👉 https://www.youtube.com/watch?v=LJKE271m0H8
 
 ---
 
