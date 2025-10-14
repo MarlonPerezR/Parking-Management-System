@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <a href="../principal.php" class="home-icon">
+    <a href="../index.php" class="home-icon">
         <i class="fas fa-home"></i>
     </a>
     <main>
