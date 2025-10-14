@@ -1,30 +1,56 @@
 <?php
-// index.php - Página de inicio con PHP para Railway
-session_start();
-
-// Configuración básica para evitar errores
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-// Información de debug (opcional)
-$debug_info = "";
-// $debug_info = "PHP Version: " . phpversion() . " | ";
-
-// Probar conexión a base de datos si es necesario
-try {
+// TEMPORAL: Crear tablas automáticamente
+function crearTablas() {
     $host = getenv('MYSQLHOST');
     $user = getenv('MYSQLUSER');
+    $password = getenv('MYSQLPASSWORD');
     $database = getenv('MYSQLDATABASE');
-
-    if ($host && $user) {
-        $debug_info .= "BD: Conectada | ";
+    $port = getenv('MYSQLPORT');
+    
+    $conn = new mysqli($host, $user, $password, $database, $port);
+    
+    // SQL para crear tablas
+    $sql = "
+    CREATE TABLE IF NOT EXISTS usuarios (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      identificacion VARCHAR(20) NOT NULL UNIQUE,
+      tipo_usuario ENUM('empleado','cliente') NOT NULL,
+      nombre_completo VARCHAR(100) NOT NULL,
+      correo VARCHAR(100) NOT NULL UNIQUE,
+      telefono VARCHAR(15) DEFAULT NULL,
+      contrasena VARCHAR(128) NOT NULL,
+      fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+    
+    CREATE TABLE IF NOT EXISTS vehiculos (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      placa VARCHAR(10) NOT NULL UNIQUE,
+      tipo_vehiculo ENUM('carro','moto') NOT NULL,
+      marca VARCHAR(50) NOT NULL,
+      color VARCHAR(30) NOT NULL,
+      espacio_estacionamiento VARCHAR(10) NOT NULL,
+      fecha_ingreso DATE NOT NULL,
+      hora_ingreso TIME NOT NULL,
+      estado ENUM('activo','pagado') DEFAULT 'activo',
+      fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+    ";
+    
+    if ($conn->multi_query($sql)) {
+        echo "✅ Tablas creadas exitosamente!";
     } else {
-        $debug_info .= "BD: Local | ";
+        echo "❌ Error: " . $conn->error;
     }
-} catch (Exception $e) {
-    $debug_info .= "BD: Error | ";
+}
+
+// Solo ejecutar si se accede con parámetro secreto
+if (isset($_GET['setup']) && $_GET['setup'] == 'railway2024') {
+    crearTablas();
+    exit();
 }
 ?>
+
+<!-- Tu HTML normal aquí -->
 
 <!DOCTYPE html>
 <html lang="es">
