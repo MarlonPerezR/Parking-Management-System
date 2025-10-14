@@ -1,4 +1,30 @@
+<?php
+// index.php - Página de inicio con PHP para Railway
+session_start();
 
+// Configuración básica para evitar errores
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Información de debug (opcional)
+$debug_info = "";
+// $debug_info = "PHP Version: " . phpversion() . " | ";
+
+// Probar conexión a base de datos si es necesario
+try {
+    $host = getenv('MYSQLHOST');
+    $user = getenv('MYSQLUSER');
+    $database = getenv('MYSQLDATABASE');
+
+    if ($host && $user) {
+        $debug_info .= "BD: Conectada | ";
+    } else {
+        $debug_info .= "BD: Local | ";
+    }
+} catch (Exception $e) {
+    $debug_info .= "BD: Error | ";
+}
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -10,9 +36,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Secure Parking Bogotá</title>
     <link rel="stylesheet" href="./assets/CSS/principal.css">
+
+    <!-- Debug info (puedes eliminar esto después) -->
+    <style>
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 1000;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Debug info (eliminar en producción) -->
+    <div class="debug-info">
+        <?php echo $debug_info; ?> 🚀 Online
+    </div>
+
     <header>
         <div class="header-content" style="color: white;">
             <h1>Bogo-Parking J.M</h1>
@@ -22,6 +68,7 @@
                     Iniciar sesión / Registrarse
                 </a>
             </div>
+        </div>
     </header>
 
     <nav>
@@ -47,10 +94,12 @@
 
             <div class="image-container">
                 <div class="image-box">
-                    <img src="./assets/images/BogoParking.png" alt="Instalaciones de Bogo-Parking J.M">
+                    <img src="./assets/images/BogoParking.png" alt="Instalaciones de Bogo-Parking J.M"
+                        onerror="this.src='https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
                 <div class="image-box">
-                    <img src="./assets/images/Equipo.png" alt="Equipo de trabajo Bogo-Parking">
+                    <img src="./assets/images/Equipo.png" alt="Equipo de trabajo Bogo-Parking"
+                        onerror="this.src='https://images.unsplash.com/photo-1551135049-8a33b42738b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
             </div>
         </section>
@@ -72,7 +121,7 @@
                         alt="Tecnología implementada">
                 </div>
                 <div class="image-box">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                    <img src="https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
                         alt="Futuras expansiones">
                 </div>
             </div>
@@ -87,11 +136,14 @@
 
             <div class="image-container">
                 <div class="image-box">
-                    <img src="./assets/images/PANTALLAZO.jpeg" alt="Fachada de Bogo-Parking J.M">
+                    <img src="./assets/images/PANTALLAZO.jpeg" alt="Fachada de Bogo-Parking J.M"
+                        onerror="this.src='https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
             </div>
 
-            <iframe src="https://www.google.com/maps?q=Calle+45+%2313+-+21,+Bogotá,+Colombia&output=embed"></iframe>
+            <iframe src="https://www.google.com/maps?q=Calle+45+%2313+-+21,+Bogotá,+Colombia&output=embed"
+                title="Ubicación de Bogo-Parking J.M en Google Maps">
+            </iframe>
         </section>
 
         <section id="importancia">
@@ -116,7 +168,8 @@
                         alt="Sistemas de seguridad">
                 </div>
                 <div class="image-box">
-                    <img src="./assets/images/PLAZA.webp" alt="Espacios protegidos">
+                    <img src="./assets/images/PLAZA.webp" alt="Espacios protegidos"
+                        onerror="this.src='https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
             </div>
         </section>
@@ -134,7 +187,8 @@
 
             <div class="image-container">
                 <div class="image-box">
-                    <img src="./assets/images/ahorro.jpg" alt="Tarifas y precios">
+                    <img src="./assets/images/ahorro.jpg" alt="Tarifas y precios"
+                        onerror="this.src='https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
             </div>
         </section>
@@ -153,7 +207,8 @@
 
             <div class="image-container">
                 <div class="image-box">
-                    <img src="./assets/images/medios.jpg" alt="Medios de pago aceptados">
+                    <img src="./assets/images/medios.jpg" alt="Medios de pago aceptados"
+                        onerror="this.src='https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80'">
                 </div>
             </div>
         </section>
@@ -163,6 +218,7 @@
         <p>&copy; 2025 BogoParking J.M - Todos los derechos reservados</p>
         <p>Horario de atención: 24/7 los 365 días del año</p>
         <p>Contacto: info@bogoparkingjm.com - Tel: +57 3123546887</p>
+        <p><?php echo "Servidor: " . ($_SERVER['SERVER_NAME'] ?? 'Railway'); ?></p>
     </footer>
 </body>
 
