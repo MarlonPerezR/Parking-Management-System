@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 header('Content-Type: application/json');
 
 // RUTA CORRECTA - desde php/Tickets/ a includes/
-include __DIR__ . '/../../includes/conexion_be.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
 
 // Verificar si se incluyó correctamente
 if (!isset($conexion)) {

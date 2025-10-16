@@ -8,7 +8,7 @@ if (!isset($_SESSION['identificacion']) || $_SESSION['tipo_usuario'] !== 'emplea
 }
 
 // Incluir archivo de conexión
-include __DIR__ . '/../../includes/conexion_be.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
 
 // Validar y sanitizar los datos del formulario
 $documento_cliente = !empty($_POST['documento_cliente']) ? trim($_POST['documento_cliente']) : null;
