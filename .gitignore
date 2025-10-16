@@ -41,4 +41,4 @@ backup/
 
 # Config files with passwords
 *config*.php
-*conexion*.php
+*conexion*.phpx
