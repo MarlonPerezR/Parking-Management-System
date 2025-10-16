@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/../../includes/conexion_be.php';
+include __DIR__ . '/../../config.php';
 
 
 // Obtener y sanitizar datos

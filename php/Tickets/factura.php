@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
+include __DIR__ . '/../../config.php';
 
 $placa = $_GET['placa'];
 $sql = "SELECT * FROM vehiculos WHERE placa = ?";

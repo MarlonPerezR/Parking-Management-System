@@ -7,7 +7,7 @@ if (!isset($_SESSION['identificacion']) || $_SESSION['tipo_usuario'] !== 'emplea
     exit;
 }
 
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
+include __DIR__ . '/../../config.php';
 
 $placa = $_POST['placa'];
 $hora_salida = $_POST['hora_salida'];

@@ -6,7 +6,7 @@ if(!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'empleado'){
 }
 
 // Conexión a la base de datos - RUTA CORREGIDA
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
+include __DIR__ . '/../config.php';
 
 // Obtener información del empleado
 $correo = $_SESSION['usuario'];

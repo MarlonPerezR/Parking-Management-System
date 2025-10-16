@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
+include __DIR__ . '/../../config.php';
 // Recibir datos enviados desde ver_ticket_resultado.php
 $placa = $_POST['placa'] ?? null;
 $tipo_vehiculo = $_POST['tipo_vehiculo'] ?? null;

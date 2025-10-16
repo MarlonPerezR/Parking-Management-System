@@ -1,6 +1,6 @@
 <?php
 session_start();
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/conexion_be.php';
+include __DIR__ . '/../../config.php';
 
 // Verificar sesión y tipo de usuario
 if (!isset($_SESSION['usuario'])) {
