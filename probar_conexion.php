@@ -6,7 +6,7 @@ echo "<h3>🔧 PRUEBA DE CONEXIÓN</h3>";
 
 if ($conexion) {
     echo "✅ Conexión establecida<br>";
-    echo "Base de datos: " . ($conexion->select_db('railway') ? 'railway ✅' : 'ERROR ❌') . "<br>";
+    echo "Base de datos: " . ($conexion->select_db('parqueadero_db') ? 'parqueadero_db  ✅' : 'ERROR ❌') . "<br>";
     
     // Probar consulta
     $result = mysqli_query($conexion, "SHOW TABLES");
