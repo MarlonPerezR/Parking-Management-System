@@ -48,6 +48,9 @@ if (isset($_GET['setup']) && $_GET['setup'] == 'railway2024') {
     crearTablas();
     exit();
 }
+
+// DEFINIR LA VARIABLE DEBUG_INFO PARA EVITAR EL ERROR
+$debug_info = "Sistema funcionando correctamente";
 ?>
 
 <!-- Tu HTML normal aquí -->
