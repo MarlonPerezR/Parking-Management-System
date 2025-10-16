@@ -1,6 +1,6 @@
 <?php
 // Incluir archivo de conexión - RUTA CORREGIDA
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 // Verificar que todos los parámetros estén presentes
 if (!isset($_GET['placa']) || !isset($_GET['hora_salida']) || !isset($_GET['fecha_salida'])) {

@@ -1,5 +1,5 @@
 <?php
-include 'conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 $placa = $_GET['placa'] ?? '';
 

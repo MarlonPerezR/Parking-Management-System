@@ -8,7 +8,7 @@ if (!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'cliente') {
 }
 
 // RUTA CORREGIDA
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener datos del formulario

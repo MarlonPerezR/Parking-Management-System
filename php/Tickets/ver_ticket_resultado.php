@@ -11,7 +11,7 @@ if (!isset($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != 'cliente') {
 }
 
 // RUTA CORREGIDA - usar mysqli en lugar de PDO
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $identificacion = $_POST['identificacion'];

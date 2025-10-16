@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 if(!empty($_POST['correo']) && !empty($_POST['contrasena'])){
     $correo = mysqli_real_escape_string($conexion, $_POST['correo']);

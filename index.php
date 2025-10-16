@@ -64,7 +64,7 @@ $debug_info = "Sistema funcionando correctamente";
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Secure Parking Bogotá</title>
-    <link rel="stylesheet" href="./assets/CSS/principal.css">
+    <link rel="stylesheet" href="./assets/CSS/index.css">
 
     <!-- Debug info (puedes eliminar esto después) -->
     <style>

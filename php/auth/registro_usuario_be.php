@@ -1,5 +1,6 @@
 <?php
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
+
 
 // Obtener y sanitizar datos
 $documento_identidad = mysqli_real_escape_string($conexion, $_POST['documento_identidad']);

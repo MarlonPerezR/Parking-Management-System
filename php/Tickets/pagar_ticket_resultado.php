@@ -1,6 +1,5 @@
 <?php
-include 'php/conexion_be.php';
-
+include __DIR__ . '/../../includes/conexion_be.php';
 // Recibir datos enviados desde ver_ticket_resultado.php
 $placa = $_POST['placa'] ?? null;
 $tipo_vehiculo = $_POST['tipo_vehiculo'] ?? null;

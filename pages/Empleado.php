@@ -19,8 +19,7 @@ if($_SESSION['tipo_usuario'] != 'empleado'){
     ';
     die();
 }
-
-include '../includes/conexion_be.php';
+include __DIR__ . '/../includes/conexion_be.php';
 $correo = $_SESSION['usuario'];
 $query = "SELECT nombre_completo FROM usuarios WHERE correo = '$correo'";
 $resultado = mysqli_query($conexion, $query);

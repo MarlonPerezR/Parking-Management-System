@@ -8,7 +8,7 @@ if (!isset($_SESSION['identificacion']) || $_SESSION['tipo_usuario'] !== 'emplea
 }
 
 // Incluir archivo de conexión
-include '../../includes/conexion_be.php';
+include __DIR__ . '/../../includes/conexion_be.php';
 
 $placa = $_POST['placa'];
 $hora_salida = $_POST['hora_salida'];
