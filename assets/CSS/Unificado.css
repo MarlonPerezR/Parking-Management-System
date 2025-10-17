@@ -359,7 +359,7 @@ main {
   max-height: 80vh; /* Altura máxima */
   overflow-y: auto; /* Scroll vertical */
   width: 90%; /* Ancho adaptable */
-  max-width: 500px; /* Ancho máximo */
+  max-width: 800px; /* Ancho máximo */
   margin: 0 auto; /* Centrado */
 }
 
