@@ -6,7 +6,7 @@ session_start();
 $host = 'mainline.proxy.rlwy.net';
 $user = 'root';
 $password = 'LDahANJQVbydRADgZQVIJjYvpVaDsrYs';
-$database = 'railway';
+$database = 'parqueadero_db';
 $port = 51702;
 
 // Conexión directa
