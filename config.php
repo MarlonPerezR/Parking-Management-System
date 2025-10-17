@@ -1,6 +1,5 @@
 <?php
-// config.php - CONEXIÓN DIRECTA PARA RAILWAY
-session_start();
+
 
 // CREDENCIALES DIRECTAS de Railway (las que te funcionaron en CMD)
 $host = 'mainline.proxy.rlwy.net';
