@@ -1,10 +1,19 @@
+<?php
+// ESTO DEBE IR AL INICIO - línea 1
+session_start();
+
+// Verificar sesión
+if(!isset($_SESSION['usuario'])){
+    header("Location: home.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/CSS/estilosParqueadero.css">
-    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Mapa de Parqueadero</title>
@@ -14,10 +23,7 @@
     <!-- AGREGAR INFO DEL USUARIO -->
     <div class="user-info">
         <i class="fas fa-user-circle"></i>
-        <span><?php 
-            session_start();
-            echo htmlspecialchars($_SESSION['nombre_completo'] ?? 'Cliente'); 
-        ?></span>
+        <span><?php echo htmlspecialchars($_SESSION['nombre_completo'] ?? 'Cliente'); ?></span>
     </div>
     
     <div class="parking-container" style="font-family: 'Roboto', sans-serif;">
