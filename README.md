@@ -110,7 +110,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ---
 
-# 👥 Developed By
+## 👥 Developed By
 
 Marlon Pérez R.
 
