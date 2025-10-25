@@ -3,24 +3,23 @@
 Welcome to the **Parking Management System**!  
 A modern and efficient web application designed to simplify and automate the management of vehicle parking operations.
 
----
 
-## 🚗 What Does This System Do?
+
+## What Does This System Do?
 
 This project transforms the traditional parking experience into a fully digital, fast, and organized process.  
 Imagine arriving at a parking lot and, instead of taking a physical ticket, handling everything from a **web-based platform** — registration, payment, and exit — all in one place.
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
-📺 *Watch the system in action:*  
+*Watch the system in action:*  
 👉 https://www.youtube.com/watch?v=LJKE271m0H8
 
 ---
 
-
-## ✨ Key Features
+## Key Features
 
 - 🎫 **Digital Ticket Management** — Go paperless, manage everything online.  
 - ⏱️ **Automatic Rate Calculation** — Accurate billing every time.  
@@ -31,7 +30,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
     PARQUEADERO/
     ├── 🌐 Frontend
@@ -77,15 +76,15 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ---
 
-## 🎯 Who Is This System For?
+## Who Is This System For?
 
-### 👥 Parking Customers
+### Parking Customers
 - Fast and easy vehicle check-in and check-out.  
 - View total parking time.  
 - Make online payments securely.  
 - Download tickets and invoices anytime.
 
-### 👨‍💼 Employees / Administrators
+### Employees / Administrators
 - Monitor operations in real time.  
 - Manage parking spaces and vehicle locations.  
 - Handle incidents and customer requests.  
@@ -93,7 +92,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
