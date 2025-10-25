@@ -10,14 +10,13 @@ A modern and efficient web application designed to simplify and automate the man
 This project transforms the traditional parking experience into a fully digital, fast, and organized process.  
 Imagine arriving at a parking lot and, instead of taking a physical ticket, handling everything from a **web-based platform** — registration, payment, and exit — all in one place.
 
----
+
 
 ## Demo Video
 
 *Watch the system in action:*  
 👉 https://www.youtube.com/watch?v=LJKE271m0H8
 
----
 
 ## Key Features
 
@@ -28,7 +27,12 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - 🧾 **Invoice Generation** — Professional, ready-to-print or downloadable invoices.  
 - 📍 **Vehicle Tracking** — Interactive map showing each vehicle’s location.
 
----
+ ## Deployment
+This project is deployed on **Railway** - a modern cloud platform that makes deploying full-stack applications simple and efficient.
+
+**Live Demo:** [Your Railway deployment link here]
+
+
 
 ##  Project Structure
 
@@ -74,7 +78,6 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
         └── principal.php
 
 
----
 
 ## Who Is This System For?
 
@@ -90,16 +93,13 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - Handle incidents and customer requests.  
 - Generate detailed reports and payment records.
 
----
 
 ## Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Server:** Apache (XAMPP)
 
----
 
 ## 👥 Developed By
 
