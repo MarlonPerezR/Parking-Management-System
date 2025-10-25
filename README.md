@@ -30,14 +30,6 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - 📍 **Vehicle Tracking** — Interactive map showing each vehicle’s location.
 
 ---
-## 🚀 Technologies Used
-
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Server:** Apache (XAMPP)
-
----
 
 ## 🏗️ Project Structure
 
@@ -114,11 +106,11 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 
 Marlon Pérez R.
 
-https://portfolio-mu-fawn-47.vercel.app/
+🌐 Portfolio: https://portfolio-mu-fawn-47.vercel.app/
 
-https://github.com/MarlonPerezR
+💻 GitHub: https://github.com/MarlonPerezR
 
-https://www.linkedin.com/in/marlonpérez/
+💼 LinkedIn: https://www.linkedin.com/in/marlonpérez/
 
 ## 📄 License
 
