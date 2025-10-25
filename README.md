@@ -28,7 +28,7 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - 📍 **Vehicle Tracking** — Interactive map showing each vehicle’s location.
 
  ## Deployment
-This project is deployed on **Railway** - a modern cloud platform that makes deploying full-stack applications simple and efficient.
+This project is deployed on **Railway**. A modern cloud platform that makes deploying full-stack applications simple and efficient.
 
 **Live Demo:** [Your Railway deployment link here]
 
