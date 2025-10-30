@@ -3,24 +3,22 @@
 Welcome to the **Parking Management System**!  
 A modern and efficient web application designed to simplify and automate the management of vehicle parking operations.
 
----
 
-## 🚗 What Does This System Do?
+
+## What Does This System Do?
 
 This project transforms the traditional parking experience into a fully digital, fast, and organized process.  
 Imagine arriving at a parking lot and, instead of taking a physical ticket, handling everything from a **web-based platform** — registration, payment, and exit — all in one place.
 
----
 
-## 🎥 Demo Video
 
-📺 *Watch the system in action:*  
+## Demo Video
+
+*Watch the system in action:*  
 👉 https://www.youtube.com/watch?v=LJKE271m0H8
 
----
 
-
-## ✨ Key Features
+## Key Features
 
 - 🎫 **Digital Ticket Management** — Go paperless, manage everything online.  
 - ⏱️ **Automatic Rate Calculation** — Accurate billing every time.  
@@ -29,17 +27,14 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
 - 🧾 **Invoice Generation** — Professional, ready-to-print or downloadable invoices.  
 - 📍 **Vehicle Tracking** — Interactive map showing each vehicle’s location.
 
----
-## 🚀 Technologies Used
+ ## Deployment
+This project is deployed on **Railway**. A modern cloud platform that makes deploying full-stack applications simple and efficient.
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Server:** Apache (XAMPP)
+**Live Demo:** [Your Railway deployment link here]
 
----
 
-## 🏗️ Project Structure
+
+##  Project Structure
 
     PARQUEADERO/
     ├── 🌐 Frontend
@@ -83,30 +78,40 @@ Imagine arriving at a parking lot and, instead of taking a physical ticket, hand
         └── principal.php
 
 
----
 
-## 🎯 Who Is This System For?
+## Who Is This System For?
 
-### 👥 Parking Customers
+### Parking Customers
 - Fast and easy vehicle check-in and check-out.  
 - View total parking time.  
 - Make online payments securely.  
 - Download tickets and invoices anytime.
 
-### 👨‍💼 Employees / Administrators
+### Employees / Administrators
 - Monitor operations in real time.  
 - Manage parking spaces and vehicle locations.  
 - Handle incidents and customer requests.  
 - Generate detailed reports and payment records.
 
----
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Server:** Apache (XAMPP)
 
 
+## 👥 Developed By
+
+Marlon Pérez R.
+
+🌐 Portfolio: https://portfolio-mu-fawn-47.vercel.app/
+
+💻 GitHub: https://github.com/MarlonPerezR
+
+💼 LinkedIn: https://www.linkedin.com/in/marlonpérez/
+
+## 📄 License
+
+This project is for personal use. © 2025 Marlon Pérez - All rights reserved.
 
