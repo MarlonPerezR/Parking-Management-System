@@ -61,7 +61,7 @@ $debug_info = "Sistema funcionando correctamente";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Secure Parking Bogotá</title>
     <link rel="stylesheet" href="./assets/CSS/index.css">
