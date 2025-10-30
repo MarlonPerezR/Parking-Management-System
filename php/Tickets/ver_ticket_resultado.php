@@ -29,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Resultado Ticket</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/icon.png">
     <link rel="stylesheet" href="../../assets/CSS/estilosUnificado.css">
     <link rel="stylesheet" href="../../assets/CSS/estilosTiquete.css">
 </head>

@@ -35,6 +35,7 @@ mysqli_close($conexion);
 <head>
     <meta charset="UTF-8" />
     <title>Consultar Ticket de Vehículo</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/icon.png">
     <link rel="stylesheet" href="../assets/CSS/Unificado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>

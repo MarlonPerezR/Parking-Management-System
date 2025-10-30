@@ -32,6 +32,7 @@ mysqli_close($conexion);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingreso de Vehículo | Sistema Parqueadero</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/icon.png">
     <link rel="stylesheet" href="../assets/CSS/Unificado.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
